@@ -1,9 +1,5 @@
 # Portafolio | Luvid
 
-### Capturas de pantalla:
-
-Primera parte de la página web:
-
 ## Tecnologías
 
 Página web creada con:
