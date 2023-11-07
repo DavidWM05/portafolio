@@ -1,0 +1,333 @@
+/*---------- Consola ---------- */
+.hidden {
+  opacity: 0;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+}
+
+/* Estilos generales */
+body {
+  background-image: url("imagenes/wallpapers/endless-constellation.svg");
+  background-attachment: fixed;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  background-color: black;
+  font-size: 2.5rem;
+  color: rgb(5, 148, 5);
+  font-family: 'Ubuntu', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: white;
+  padding-bottom: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #121012;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Barra de navegacion */
+
+.navbar {
+  padding-top: 0.1rem;
+  /*padding-left: 25px;*/
+  background-color: rgba(0, 0, 0, 0.801);
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item-text {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+/* Seccion Hero */
+
+.hero {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.hero-principal {
+
+  padding: 4rem 3rem 3rem 3rem;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Sobre mi */
+.sobre-mi {
+  height: 55vh;
+}
+
+.imagen-desarrollador {
+  width: 200px;
+  height: auto;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+/* experience */
+
+.experience {
+  padding: 10vh 40px 60px 40px;
+}
+
+.experience .column {
+  padding: 20px;
+  border: 2px solid #0202024d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.2s ease-in;
+}
+
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge{ margin: 5px; }
+
+.badge-default { background-color: cyan; color: black;}
+.badge-java{ background-color: red; color: black; }
+.badge-c{ background-color: rgb(49, 116, 185); color: white;}
+.badge-csharp{ background-color: rgb(57, 0, 145); color: white;}
+.badge-php{ background-color: rgb(138, 147, 190); color: black;}
+.badge-python{ background-color: rgb(63, 124, 173); color: white;}
+.badge-js{ background-color:  rgb(255, 220, 80); color: black;}
+.badge-css{ background-color: rgb(63, 124, 173); color: white;}
+.badge-html{ background-color: rgb(234, 62,0); color: white;}
+
+.badge-spring{ background-color: rgb(119, 188,31); color: white;}
+.badge-boots{ background-color: rgb(121, 16, 242); color: white;}
+
+.column-fr:hover{ color:#aeaeae; background-color: #ffffff05; backdrop-filter: blur(3px); box-shadow: 0 0 5px black, 0 0 25px rgb(0, 255, 42), 0 0 50px rgb(0, 255, 42), 0 0 100px rgb(0, 255, 42), 0 0 200px rgb(0, 255, 42);}
+.column-lg:hover{ color:#aeaeae; background-color: #ffffff05; backdrop-filter: blur(3px); box-shadow: 0 0 5px black, 0 0 25px rgb(238, 255, 0), 0 0 50px rgb(238, 255, 0), 0 0 100px rgb(238, 255, 0), 0 0 200px rgb(238, 255, 0);}
+.column-sk:hover{ color:#aeaeae; background-color: #ffffff05; backdrop-filter: blur(3px); box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;}
+
+
+/* Proyectos */
+
+.proyectos-recientes {
+  padding: 55px 40px 40px 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Certification */
+
+.certification {
+  min-height: 500px;
+  padding: 55px 30px 30px 30px;
+}
+
+.certification .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.certification .card-header {
+  font-weight: bold;
+}
+
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 300px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
