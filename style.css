@@ -109,7 +109,7 @@ h2 {
 
 /* Sobre mi */
 .sobre-mi {
-  height: 65vh;
+  padding: 20px;
 }
 
 .imagen-desarrollador {
