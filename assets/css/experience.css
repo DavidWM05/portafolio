@@ -1,0 +1,106 @@
+.experience {
+    padding: 10vh 40px 60px 40px;
+}
+
+.experience .column {
+    padding: 20px;
+    border: 2px solid #0202024d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 0.2s ease-in;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.badge-default {
+    background-color: cyan;
+    color: black;
+}
+
+.badge-java {
+    background-color: red;
+    color: black;
+}
+
+.badge-c {
+    background-color: rgb(49, 116, 185);
+    color: white;
+}
+
+.badge-csharp {
+    background-color: rgb(57, 0, 145);
+    color: white;
+}
+
+.badge-php {
+    background-color: rgb(138, 147, 190);
+    color: black;
+}
+
+.badge-python {
+    background-color: rgb(63, 124, 173);
+    color: white;
+}
+
+.badge-js {
+    background-color: rgb(255, 220, 80);
+    color: black;
+}
+
+.badge-css {
+    background-color: rgb(63, 124, 173);
+    color: white;
+}
+
+.badge-html {
+    background-color: rgb(234, 62, 0);
+    color: white;
+}
+
+.badge-spring {
+    background-color: rgb(119, 188, 31);
+    color: white;
+}
+
+.badge-boots {
+    background-color: rgb(121, 16, 242);
+    color: white;
+}
+
+.column-fr:hover {
+    color: #aeaeae;
+    background-color: #ffffff05;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px black, 0 0 25px rgb(0, 255, 42), 0 0 50px rgb(0, 255, 42), 0 0 100px rgb(0, 255, 42), 0 0 200px rgb(0, 255, 42);
+}
+
+.column-lg:hover {
+    color: #aeaeae;
+    background-color: #ffffff05;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px black, 0 0 25px rgb(238, 255, 0), 0 0 50px rgb(238, 255, 0), 0 0 100px rgb(238, 255, 0), 0 0 200px rgb(238, 255, 0);
+}
+
+.column-sk:hover {
+    color: #aeaeae;
+    background-color: #ffffff05;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}

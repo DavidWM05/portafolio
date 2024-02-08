@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .seccion-texto {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .imagen-desarrollador {
+        width: 20%;
+        height: auto;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+
+    .seccion-texto {
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
+    .imagen-desarrollador {
+        width: 25%;
+        height: auto;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .seccion-texto {
+        font-size: 0.6rem;
+        text-align: justify;
+    }
+
+    .imagen-desarrollador {
+        width: 35%;
+        height: auto;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+
+    #btn_cv {
+        height: 15%;
+        width: 40%;
+        font-size: 0.8rem;
+    }
+}

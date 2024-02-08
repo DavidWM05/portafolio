@@ -1,7 +1,6 @@
-consoleText(['From Mexico','Software Developer', 'Systems Engineer'], 'text', ['#FFF', '#FFF', '#FFF']);
+consoleText(['From México','Software Developer', 'Systems Engineer','Java Fanboy','Gamer'], 'text', ['#504d4a','#FFF', '#c9c2b9', '#96551d','#4bb5cb']);
 
-function consoleText(words, id, colors) {
-  colors = ['#FFF']; // Color por default  
+function consoleText(words, id, colors) {  
   var visible = true;
   var con = document.getElementById('console');
   var letterCount = 1;

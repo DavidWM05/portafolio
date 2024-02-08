@@ -11,23 +11,21 @@
   <!-- Titulo -->
   <title>David Peralta | Developer</title>
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="imagenes/lvLogo.png">
+  <link rel="icon" type="image/x-icon" href="assets/img/lvLogo.png">
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- Iconos de Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <!-- CSS -->
-  <link href="style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!--Particulas-->
+  <div id="particles-js"></div>
   <!-- Barra de navegacion -->
   <nav class="navbar navbar-dark navbar-expand-md fixed-top">
     <div class="container-fluid">
@@ -39,7 +37,7 @@
 
       <div class="collapse navbar-collapse" id="navbar-toggler">
         <a class="navbar-brand" href="#herop">
-          <img src="imagenes/lvLogo.png" width="50" alt="Logo de la página web">
+          <img src="assets/img/lvLogo.png" width="50" alt="Logo de la página web">
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
@@ -63,11 +61,11 @@
   <section id="herop" class="hero align-items-stretch">
     <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
       <h1>
-        Hello. I am Luvid.
+        Hello. I'm David.
       </h1>
       <h2>
         <div class='console-container'>
-          <span id='text'></span>
+          <strong><span id='text'></span></strong>
           <div class='console-underscore' id='console'>|</div>
         </div>
       </h2>
@@ -75,38 +73,34 @@
   </section>
 
   <!-- About me -->
-  
   <section id="about" class="sobre-mi seccion-oscura">
     <div class="container">
       <div class="row justify-content-center align-items-center">
-
         <div class="col-12 text-center">
-          <img class="imagen-desarrollador img-fluid" src="imagenes/personal2.png" alt="Luvid">
+          <img class="imagen-desarrollador img-fluid" src="assets/img/personal2.png" alt="Luvid">
         </div>
 
         <div class="col-12">
           <p class="seccion-texto overflow-auto">
             My name is Luis David Peralta Gonzalez, i am from Mexico. I have a programming technician degree and i
-            am computer systems engineer graduated from ESCOM of the Instituto Politecnico Nacional.            
+            am computer systems engineer graduated from ESCOM of the Instituto Politecnico Nacional.
           </p>
           <p class="seccion-texto overflow-auto">
-            My passion for the computer science started with video games mechanics and physics surprising and 
+            My passion for the computer science started with video games mechanics and physics surprising and
             interesting for each video game.
 
-            I like many areas of the software development such as web, video games, desktop 
+            I like many areas of the software development such as web, video games, desktop
             applications, mobile applications and the cybersecurity. I am always open to learning something new and
             updating my knowledge.
           </p>
         </div>
 
         <div class="col-12 text-center">
-          <a href="documentos/PeraltaGonzalezLuisDavid_cv.pdf" target="_blank">
-            <button type="button" id="btn_cv" class="btn btn-outline-danger">CV<i id="ico_cv" class="bi bi-file-earmark-pdf"></i></button>
+          <a href="assets/docs/PeraltaGonzalezLuisDavid_cv.pdf" target="_blank">
+            <button type="button" id="btn_cv" class="btn btn-outline-danger">CV<i id="ico_cv"
+                class="bi bi-file-earmark-pdf"></i></button>
           </a>
         </div>
-
-
-
       </div>
     </div>
   </section>
@@ -118,7 +112,7 @@
       <div class="row">
         <!-- Languages -->
         <div class="column column-lg col-12 col-md-4">
-          <img src="imagenes/codificacion.png" width="60" alt="Logo de la web">
+          <img src="assets/img/codificacion.png" width="60" alt="Logo de la web">
           <p class="experience-title">Languages</p>
           <div class="badges-contenedor">
             <span class="badge badge-java">Java</span>
@@ -134,17 +128,17 @@
         </div>
         <!-- Framework -->
         <div class="column column-fr col-12 col-md-4">
-          <img src="imagenes/framework.png" width="60" alt="Logo del IPN">
+          <img src="assets/img/framework.png" width="60" alt="Logo del IPN">
           <p class="experience-title">Framework</p>
           <div class="badges-contenedor">
             <span class="badge badge-spring">SpringBoot</span>
             <span class="badge badge-boots">Bootstrap</span>
-          </div>          
+          </div>
         </div>
         <!-- Skills -->
         <div class="column column-sk col-12 col-md-4">
-          <img src="imagenes/skills.png" width="60" alt="Logo de habilidades">
-          <p class="experience-title">Soft Skills</p>          
+          <img src="assets/img/skills.png" width="60" alt="Logo de habilidades">
+          <p class="experience-title">Soft Skills</p>
           <div class="badges-contenedor">
             <span class="badge badge-default">Teamwork</span>
             <span class="badge badge-default">Critical thinking</span>
@@ -169,7 +163,7 @@
         <!-- Proyecto 1 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="proyecto">
-            <img src="imagenes/projects/p5_catt.jpg" alt="Proyecto 1">
+            <img src="assets/img/projects/p5_catt.jpg" alt="Proyecto 1">
             <div class="overlay">
               <p>Algoritmo Genetico</p>
               <div class="iconos-contenedor">
@@ -189,7 +183,7 @@
         <!-- Proyecto 2 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="proyecto">
-            <img src="imagenes/projects/p2-alura-conversor.png" alt="Proyecto Alura-Conversor">
+            <img src="assets/img/projects/p2-alura-conversor.png" alt="Proyecto Alura-Conversor">
             <div class="overlay">
               <p>Alura-Conversor</p>
               <div class="iconos-contenedor">
@@ -206,7 +200,7 @@
         <!-- Proyecto 3 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="proyecto">
-            <img src="imagenes/projects/p3_Vista_encriptador.png" alt="Proyecto Alura-Encriptador">
+            <img src="assets/img/projects/p3_Vista_encriptador.png" alt="Proyecto Alura-Encriptador">
             <div class="overlay">
               <p>Alura-Encriptador</p>
               <div class="iconos-contenedor">
@@ -223,7 +217,7 @@
         <!-- Proyecto 4 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="proyecto">
-            <img src="imagenes/projects/p4_db.png" alt="Proyecto BaseDatos-Distribuida">
+            <img src="assets/img/projects/p4_db.png" alt="Proyecto BaseDatos-Distribuida">
             <div class="overlay">
               <p>Base de Datos Distribuida</p>
               <div class="iconos-contenedor">
@@ -240,7 +234,7 @@
         <!-- Proyecto 5 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="proyecto">
-            <img src="imagenes/projects/p1_Alura-Hotel.png" alt="Proyecto Alura-Hotel">
+            <img src="assets/img/projects/p1_Alura-Hotel.png" alt="Proyecto Alura-Hotel">
             <div class="overlay">
               <p>Alura-Hotel</p>
               <div class="iconos-contenedor">
@@ -267,44 +261,91 @@
   <!-- Certifications -->
   <section id="certification" class="certification justify-content-start seccion-clara">
     <h2 class="seccion-titulo texto-negro">Certifications</h2>
-    <div class="card">
-      <div class="card-header">
-        Most recent
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header card-alura">
+              Oracle - Alura Latam ONE
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://app.aluracursos.com/user/luis-david080997/program/certificate" target="_blank"
+                rel="noopener noreferrer">
+                <li class="list-group-item">
+                  Oracle Next Education F2 T5 Back-end
+                </li>
+              </a>
+              <a href="https://app.aluracursos.com/user/luis-david080997/degree-data-science-oci-oracle-one-15451/certificate"
+                target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                  Python, Data Science en OCI y Oracle Analytics
+                </li>
+              </a>
+              <a href="https://app.aluracursos.com/user/luis-david080997/fullCertificate/2274303affb68feda949e2eb583a2690"
+                target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                  All my certifications of Alura
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header card-udemy">
+              Udemy
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://www.udemy.com/certificate/UC-5b81fdfa-599e-4db7-8c19-f3529bfe45a7/" target="_blank"
+                rel="noopener noreferrer">
+                <li class="list-group-item">
+                  SQL Server: diseño y creacion
+                </li>
+              </a>
+              <a href="https://www.udemy.com/certificate/UC-77aacc25-3570-4d78-9b59-2d996f723113/" target="_blank"
+                rel="noopener noreferrer">
+                <li class="list-group-item">
+                  MySQL desde cero
+                </li>
+              </a>
+              <a href="https://www.udemy.com/certificate/UC-ebf91981-9f68-45c6-b12b-8e8c04c61b30/" target="_blank"
+                rel="noopener noreferrer">
+                <li class="list-group-item">
+                  Java de cero a experto 2022
+                </li>
+              </a>
+              <a href="https://www.udemy.com/certificate/UC-5960fc26-5da9-4579-882f-3d706aaa411f" target="_blank"
+                rel="noopener noreferrer">
+                <li class="list-group-item">
+                  Universidad Java: cero a experto
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header card-pro">
+              Google and Microsoft
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                In process ...
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <ul class="list-group list-group-flush">
-        <a href="https://app.aluracursos.com/user/luis-david080997/program/certificate" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">
-            Oracle Next Education F2 T5 Back-end
-          </li>
-        </a>
-        <a href="https://www.udemy.com/certificate/UC-5b81fdfa-599e-4db7-8c19-f3529bfe45a7/" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">
-            SQL Server: diseño y creacion
-          </li>
-        </a>
-        <a href="https://www.udemy.com/certificate/UC-77aacc25-3570-4d78-9b59-2d996f723113/" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">
-            MySQL desde cero
-          </li>
-        </a>
-        <a href="https://www.udemy.com/certificate/UC-ebf91981-9f68-45c6-b12b-8e8c04c61b30/" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">
-            Java de cero a experto 2022
-          </li>
-        </a>
-        <a href="https://www.udemy.com/certificate/UC-5960fc26-5da9-4579-882f-3d706aaa411f" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">
-            Universidad Java: cero a experto
-          </li>
-        </a>
-      </ul>
     </div>
+
+
     <!-- <a href="#" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info"> Ver más artículos <i class="bi bi-arrow-right-circle-fill"></i> </button> </a> -->
   </section>
 
   <!-- Pie de pagina (footer) -->
   <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-    <img class="footer-logo" src="imagenes/lvLogo.png" alt="Logo del portafolio">
+    <img class="footer-logo" src="assets/img/lvLogo.png" alt="Logo del portafolio">
     <p class="footer-texto text-center">Every day is an opportunity to learn and grow.</p>
     <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
       <a href="https://github.com/DavidWM05" target="_blank" rel="noopener noreferrer">
@@ -312,7 +353,7 @@
       </a>
       <a href="https://www.linkedin.com/in/ldpg-wm97/" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-linkedin"></i>
-      </a>      
+      </a>
       <a href="mailto:luis.david080997@gmail.com" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-envelope"></i>
       </a>
@@ -324,7 +365,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-  <script src="consoleText.js"></script>
+  <script src="assets/js/consoleText.js"></script>
+  <script src="assets/js/particles.min.js"></script>
+  <script src="assets/js/particles-config.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,28 @@
+.certification {
+    min-height: 500px;
+    padding: 55px 30px 30px 30px;
+}
+
+.certification .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.certification .card-header {
+    font-weight: bold;
+    color: white;
+}
+
+.card-alura {
+    background: #051933;
+
+}
+
+.card-udemy {
+    background: #980058;
+}
+
+.card-pro {
+    background: #09a7f0;
+}
