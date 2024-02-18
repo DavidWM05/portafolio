@@ -35,8 +35,9 @@
 }
 
 .badge-java {
-    background-color: red;
-    color: black;
+    background-color: rgb(255,255,255);
+    color: rgb(84, 124, 153);
+    border: 1px solid #ccc;
 }
 
 .badge-c {
@@ -82,6 +83,22 @@
 .badge-boots {
     background-color: rgb(121, 16, 242);
     color: white;
+}
+
+.badge-mysql {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 106, 192);
+    border: 1px solid #ccc;
+}
+
+.badge-mysql-sql{
+    color: rgb(233, 147, 24);
+}
+
+.badge-ci {
+    background-color: rgb(255, 255, 255);
+    color: rgb(240, 71, 42);
+    border: 1px solid #ccc;
 }
 
 .column-fr:hover {
