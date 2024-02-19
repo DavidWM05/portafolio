@@ -69,9 +69,9 @@ h2 {
 }
 
 .seccion-texto {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
-  font-family: 'Ubuntu', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn-info {
