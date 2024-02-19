@@ -95,6 +95,11 @@
     color: rgb(233, 147, 24);
 }
 
+.badge-sqlserver{
+    background-color: rgb(189, 195, 200);
+    color: black;
+}
+
 .badge-ci {
     background-color: rgb(255, 255, 255);
     color: rgb(240, 71, 42);
@@ -113,6 +118,13 @@
     background-color: #ffffff05;
     backdrop-filter: blur(3px);
     box-shadow: 0 0 5px black, 0 0 25px rgb(238, 255, 0), 0 0 50px rgb(238, 255, 0), 0 0 100px rgb(238, 255, 0), 0 0 200px rgb(238, 255, 0);
+}
+
+.column-db:hover {
+    color: #aeaeae;
+    background-color: #ffffff05;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px black, 0 0 25px rgb(237, 39, 44), 0 0 50px rgb(237, 39, 44), 0 0 100px rgb(237, 39, 44), 0 0 200px rgb(237, 39, 44);
 }
 
 .column-sk:hover {
